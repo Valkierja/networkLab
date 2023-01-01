@@ -39,6 +39,7 @@ class SendMail:
             print('334 reply not received from server.')
             self.login()
         print("success……")
+
         self.__username = "a914107552@126.com"
         self.__password = ""  # deleted
         username = b'%s\r\n' % base64.b64encode(self.__username.encode('utf-8'))
